@@ -1,0 +1,17 @@
+
+FUNCTIONAL
+X 1. Endpoint Selection: choose 2-3
+X 2. Write out test cases for endpoints with expected results + analysis
+PARTIAL 3. Formalize a test plan
+
+BUILD OUT
+0. Get curl calls working (proof of concept) in linux
+1. Set up github repo
+2. Set up ssh keys for account locally
+2. Get simple main test built and running in linux
+
+
+LOAD
+1. Research comparative load for sites with posts (reddit/twitter/social media)
+2. Refresh on locust
+3. Do a write up
