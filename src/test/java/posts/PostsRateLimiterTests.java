@@ -39,7 +39,7 @@ public class PostsRateLimiterTests {
         HttpResponse<String> response = TestHelpers.sendRequest(baseUrl,
                 TestHelpers.HttpMethodRequests.POST, body.toString(), null);
 
-        //Will result in a 201 unauthorized. RateLimit will set itself back to 1, impossible to test
+        //Will result in a 201 unauthorized. RateLimit will set itself back to 1
         Assert.assertEquals(429, response.statusCode());
 
     }
