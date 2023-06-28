@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Full Suite">
+    <parameter name="baseUrl" value="https://jsonplaceholder.typicode.com"/>
+    <test name="Helper Tests">
+
+        <classes>
+            <class name="helpers.HelperTestCases"/>
+        </classes>
+    </test>
+
+    <test name="Posts Tests">
+        <parameter name="route" value="/posts/"/>
+        <classes>
+            <class name="posts.PostsGetTests"/>
+            <class name="posts.PostsPostTests"/>
+<!--            <class name="posts.PostsRateLimiterTests"/>-->
+        </classes>
+
+    </test>
+</suite>
